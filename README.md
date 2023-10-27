@@ -29,7 +29,7 @@ For example this would install 2.7.2 with python 3.8: https://raw.githubusercont
 ```pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"```
 
 ## Initiate the project
-1. Clone .py files into folder dags of your Airflow Home folder
+1. Clone folder "dags" into your Airflow Home folder
 
 2. Config your Google Cloud Storage and Big Query details in the airflow_dags.py script. Please also specify path to your credential json file in the script.
 
