@@ -2,12 +2,15 @@
 Đồ án kỹ thuật xử lý dữ liệu lớn - Xử lý và trực quan dữ liệu Biomedical Data Science
 
 ## Create virtual environment 
-conda create -n myenv python==3.9
+```conda create -n myenv python==3.9```
+
+## Install required packages 
+```pip install -r requirements.txt```
 
 ## Airflow Installation
 1. Set Airflow Home
 
-   ```export AIRFLOW_HOME=~/airflow```
+```export AIRFLOW_HOME=~/airflow```
    
 3. Installl Airflow
 
