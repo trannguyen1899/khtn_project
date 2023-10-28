@@ -40,3 +40,17 @@ For example this would install 2.7.2 with python 3.8: https://raw.githubusercont
 Visit ```localhost:8080``` in your browser and log in with the admin account details shown in the terminal.
 
 5. Find DAG named "khtn" in your DAG list and activate it
+
+## Graph visualization by Neo4j
+1. Log in Neo4j workspace by log in info file.
+
+2. Import data into database by Cypher code
+
+3. Use Cypher code to query and visualize graph
+   ```
+      Ex:   MATCH (author1:Authors)-[:Authored]->(publication:Publications)<-[:Authored]-(author2:Authors)
+            WHERE author1 <> author2
+            WITH author1, author2, COUNT(publication) AS num_coauthored_publications
+            WHERE num_coauthored_publications >= 15
+            RETURN author1, author2, num_coauthored_publications
+   ```
