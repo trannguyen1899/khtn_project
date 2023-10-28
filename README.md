@@ -41,6 +41,13 @@ Visit ```localhost:8080``` in your browser and log in with the admin account det
 
 5. Find DAG named "khtn" in your DAG list and activate it
 
+## PubMed dashboard
+You can view our dashboard visualization at the link below:          
+https://lookerstudio.google.com/u/0/reporting/a8d811db-d8f0-4aa1-a110-c9e5881c6bbf/page/p_k0ye89ayad
+
+![image](https://github.com/trannguyen1899/khtn_project/assets/114471604/cf7aea9f-a92c-478c-a3e7-47f631bdaddc)
+
+
 ## Graph visualization by Neo4j
 1. Log in Neo4j workspace by log in info file.
 
